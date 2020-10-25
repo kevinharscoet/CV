@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Mon CV</title>
+    <link rel="stylesheet" type="text/css" href="mep.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+    <h2 class="center blue-text" id="intro"></h2>
+    <header id="header">
+        <img id="photo" src="moi.jpg" alt="impossible de charger l'image">
+        <h1 id="monNom">Kévin HARSCOET</h1>
+    </header>
+    <menu id="menu">
+        <div>
+            <h3><i class="material-icons">contacts</i>contact<i class="material-icons">contacts</i></h3>
+            <ul>
+                <li><i class="material-icons">call</i> 06.35.25.49.72 </li>
+                <li><i class="material-icons">email</i> kevin.harscoet@live.fr <a href="mailto:kevin.harscoet@live.fr" id="mail"><i class="material-icons">send</i></a></li>
+                <li><i class="material-icons">location_on</i> 486 rue du mas de negre<br>
+                    34000 MONTPELLIER
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3><i class="material-icons">build</i>competences <i class="material-icons">build</i></h3>
+            <ul>
+                <li><img src="html-css.png" class="logocr" alt=""> HTML, CSS</li>
+                <progress id="file" max="100" value="80"> 80% </progress>
+                <li><img src="js.png" class="logoc" alt=""> JAVASCRIPT</li>
+                <progress id="file" max="100" value="75"> 75% </progress>
+                <li><img src="axios.png" class="logoc" alt=""> AXIOS</li>
+                <progress id="file" max="100" value="70"> 70% </progress>
+                <li><img src="nodejs.png" class="logocr" alt="">NODEJS, EXPRESS</li>
+                <progress id="file" max="100" value="70"> 70% </progress>
+                <li><img src="mysql.png" class="logocr" alt="">MYSQL WORKBENCH</li>
+                <progress id="file" max="100" value="70"> 70% </progress>
+                <li><img src="availpro.png" class="logocr" alt="">logiciel hotelier</li>
+                <progress id="file" max="100" value="90"> 90% </progress>
+                <li><img src="libreoffice.png" class="logocrr" alt="">open office</li>
+                <progress id="file" max="100" value="80"> 80% </progress>
+            </ul>
+        </div>
+        <div>
+            <h3><i class="material-icons">question_answer</i>Langues<i class="material-icons">question_answer</i></h3>
+            <ul>
+                <li>Francais</li>
+                <progress id="file" max="100" value="100"> 70% </progress>
+                <li>Anglais</li>
+                <progress id="file" max="100" value="80"> 80% </progress>
+                <li>Espagnol</li>
+                <progress id="file" max="100" value="30"> 30% </progress>
+            </ul>
+        </div>
+    </menu>
+    <main id="main">
+        <div>
+            <h3>PROJETS EPITECH <img src="epitech.jpg" class="logoepitech" alt=""></h3>
+            <ul>
+                <h4>Projet 1: Site d'offres d'emplois</h4>
+                <li class="taches">29-sep-2020/18-oct-2020</li>
+                <li class="taches">HTML, CSS, JS, AXIOS, NODEJS, MYSQL</li>
+                <li class="taches">Les consignes était de crée un site d'offres d'emplois à partir de zero, en implementant differentes fonctionnalitées tels que: un front fonctionnel, creation de session, page administrateur avec un C.R.U.D (create, read, update, delete) sur les annonces et les utilisateurs, creations d'annonces par des recruteurs avec egalement un C.R.U.D sur ces annonces, des requetes SQL sans ORM à une base de donnée, ...
+                </li><br>
+                <h4>Projet 2: Site de recettes de cuisine</h4>
+                <li class="taches">A venir à partir du 3 novembre</li>
+                <li class="taches">HTML, CSS, JS, VUEJS, AXIOS, LARAVEL, MARIADB</li>
+                <li class="taches">Je souhaite personnellement approffondir mes connaissance en dev, decouvrir de nouvelle technologies tels que LARAVEL ou bien meme VUEJS. Nous serons 4 personnes a se lancer ce nouveau defi chacun de son coter, mais en utilisant les meme techno afin de pouvoir s'entraider.
+            </ul>
+            <h3>EXPERIENCES PROFESSIONNELLES</h3>
+            <ul>
+                <h4>Restaurant Le MARCELLINO (Nîmes - 30)</h4>
+                <div>Nov 2017 - Août 2020</div>
+                <ul>
+                    <h4>postes occupés</h4>
+                    <li class="taches"><h5>Chef de cuisine (06/2019-08/2020)</h5>
+                        Gestion des coûts et des stocks, élaborations des menus et de la carte, Gestion d'une equipe de 5 personnes, respect des règles sanitaires, H.A.C.C.P, polyvalence sur l'integralité des postes et etroite collaboration avec la direction.
+                    </li>
+                    <li class="taches"><h5>Second de cuisine (04/2018-06/2019)</h5>
+                        Responsable de la patisserie, controle de la mise en place, collaboration avec et remplacement du chef de cuisine.
+                    </li>
+                    <li class="taches"><h5>Poste froid, poste chaud, patisserie, poste à pizza</h5>
+                        Polyvalence sur l'integralité des postes.
+                    </li>
+                </ul>
+                <h4>Mon experience complete dans la restauration sur mon linkedin...</h4>
+            </ul>
+            <h3>FORMATIONS</h3>
+            <ul>
+                <li>
+                    <h5>Master - En alternance</h5>
+                    Septembre  2020 - Aujourd'hui<br>
+                    EPITECH (34)
+                </li>
+                <li>
+                    <h5>BTS mercatique et gestion hôtelière - En alternance</h5>
+                    2014 - 2016<br>
+                    IPAC (74)
+                </li>
+                <li>
+                    <h5>BAC Pro - Hôtellerie-Restauration: option cuisine</h5>
+                    2011 - 2014<br>
+                    Lycée AMBROISE-CROIZAT (73)
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="center">
+            <h3>CENTRE D'INTERET</h3>
+            <div>Informatique</div>
+            <div>jeux video</div>
+            <div>ski et conduite automobile</div>
+            <div>Voyage : Japon, La Réunion, Corse, Allemagne, Angleterre</div>
+        </div>
+        <div id="logo">
+            <a href="https://www.linkedin.com/in/k%C3%A9vin-harscoet-67ba85117/"><img class="logo" src="linkedin-logo.png" alt=""></a>
+            <a href="https://github.com/kevinharscoet"><img class="logo" src="logo_git.png" alt=""></a>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+<script src="cv.js"></script>
+
+</html>
