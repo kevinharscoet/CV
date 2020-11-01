@@ -1,17 +1,19 @@
 body
 {
+    font-family: Apple Chancery;
     display: grid;
     grid-template-columns: 2fr 5fr;
 }
 header
 {
-    background-color: rgb(78, 134, 236);
+    background: linear-gradient(rgb(54, 41, 243),cornflowerblue);
     grid-column: 1 / -1;
     display: flex;
     justify-content: space-between;
 }
 #monNom
 {
+    font-family: Snell Roundhand;
     margin-top: 10%;
     font-size: 5em;
 }
@@ -20,10 +22,11 @@ header
     float: left;
     width: 15em;
     height: 18em;
+    padding: 1em;
 }
 menu
 {
-    background-color: cornflowerblue;
+    background: linear-gradient(cornflowerblue,rgb(39, 182, 248));
     grid-column-start: 1;
     padding: 5%;
     margin: 0em;
@@ -40,7 +43,7 @@ main
 }
 footer
 {
-    background-color: rgb(233, 233, 233);
+    background:linear-gradient(rgb(39, 182, 248),rgb(182, 228, 250))  ;
     grid-column: 1 / -1;
     padding: 2em;
 }
