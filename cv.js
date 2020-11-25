@@ -9,8 +9,19 @@ $(document).ready(function(){
         speed: 50,
         waitUntilVisible: true
       }).go();
+
+      $("#skip").click(function() {
+        $('#intro').hide();
+        $("#skip").hide();
+        $("#header").show();
+        $("#menu").show();
+        $("#main").show();
+        $("#footer").show();
+      })
+
       setTimeout(function() {
         $('#intro').hide();
+        $("#skip").hide();
         $("#header").show();
         $("#menu").show();
         $("#main").show();
