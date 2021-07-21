@@ -5,7 +5,7 @@ $(document).ready(function(){
     $("#footer").hide();
 
     new TypeIt("#intro", {
-        strings: ["<em>Bonjour, je m'appelle Kévin.</em>","<em>Je suis à la recherche d'une alternance en programmation.</em>", "<em>Voici mon CV :</em>"], 
+        strings: ["<em>Bonjour, je m'appelle Kévin.</em>","<em>Je suis à la recherche d'une alternance en contrat de professionnalisation pour mon Master.</em>", "<em>Voici mon CV :</em>"], 
         speed: 50,
         waitUntilVisible: true
       }).go();

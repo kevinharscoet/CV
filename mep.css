@@ -40,6 +40,20 @@ main
 .taches
 {
     color: rgb(167, 166, 166);
+    margin-left: 5%;
+}
+.compétences
+{
+    text-align: center;
+    color: white;
+}
+.contact
+{
+    text-align: center;
+}
+h5
+{
+    color: black;
 }
 footer
 {
@@ -81,8 +95,8 @@ footer
 }
 .logoepitech
 {
-    width: 2em;
-    height: 2em;
+    width: 10em;
+    height: 10em;
 }
 @media screen and (max-width: 1230px) {
     #resizeepitech

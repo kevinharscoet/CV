@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 </head>
 
@@ -22,37 +22,35 @@
     </header>
     <menu id="menu">
         <div>
-            <h3><i class="material-icons">contacts</i>Contact<i class="material-icons">contacts</i></h3>
-            <ul>
-                <li><i class="material-icons">call</i> 06.35.25.49.72 </li>
-                <li><i class="material-icons">email</i> kevin.harscoet@live.fr <a href="mailto:kevin.harscoet@live.fr"  id="mail" class="btn-floating cyan pulse"><i class="material-icons">send</i></a></li>
-                <li><i class="material-icons">location_on</i> 486 rue du Mas de Negre<br>
-                    34000 MONTPELLIER
+            <h3 class="contact"><i class="material-icons">contacts</i>Contact<i class="material-icons">contacts</i></h3>
+            <ul class="contact">
+                <li><i class="material-icons">call</i><div class="contact"> 06.35.25.49.72 </div></li> <br>
+                <li><i class="material-icons">email</i><div class="contact"> kevin.harscoet@live.fr <a href="mailto:kevin.harscoet@live.fr"  id="mail" class="btn-floating cyan pulse"><i class="material-icons">send</i></a></div></li> <br>
+                <li><i class="material-icons">location_on</i><div class="contact"> 486 rue du Mas de Negre<br>
+                    34000 MONTPELLIER</div>
                 </li>
             </ul>
         </div>
-        <div>
+        <div class="contact">
             <h3 class="resize"><i class="material-icons">build</i>Competences</h3>
             <ul>
-                <li><img src="html-css.png" class="logocr" alt=""></li>
-                <progress id="file" max="100" value="75"> 75% </progress>
-                <li><img src="js.png" class="logoc" alt=""></li>
-                <progress id="file" max="100" value="65"> 65% </progress>
-                <li><img src="axios.png" class="logoc" alt=""></li>
-                <progress id="file" max="100" value="60"> 60% </progress>
-                <li><img src="nodejs.png" class="logocr" alt=""></li>
-                <progress id="file" max="100" value="50"> 50% </progress>
-                <li><img src="mysql.png" class="logocr" alt=""></li>
-                <progress id="file" max="100" value="60"> 60% </progress>
-                <li><img src="java.png" class="logocr" alt=""></li>
-                <progress id="file" max="100" value="60"> 60% </progress>
-                <li><img src="availpro.png" class="logocr" alt=""></li>
-                <progress id="file" max="100" value="90"> 90% </progress>
-                <li><img src="libreoffice.png" class="logocrr" alt=""></li>
-                <progress id="file" max="100" value="80"> 80% </progress>
+                <li class="compétences">HTML5 / CSS3</li>
+                <li class="compétences">JavaScript / JQuery</li>
+                <li class="compétences">NodeJs / Express</li>
+                <li class="compétences">ReacJs</li>
+                <li class="compétences">Firebase / MySQL / MongoDB</li>
+                <li class="compétences">GitHub / GitLab / Docker</li>
+                <div class="compétences">-------------------------------</div>
+                <li class="compétences">Travail d'équipe</li>
+                <li class="compétences">Autonomie</li>
+                <li class="compétences">Apprentissage rapide</li>
+                <li class="compétences">Organisation</li>
+                <li class="compétences">Calme - Mature</li>
+                <li class="compétences">Responsabilités</li>
+                <li class="compétences">Gestion du stress</li>
             </ul>
         </div>
-        <div>
+        <div class="contact">
             <h3><i class="material-icons">question_answer</i>Langues<i class="material-icons">question_answer</i></h3>
             <ul>
                 <li>Francais</li>
@@ -66,31 +64,38 @@
     </menu>
     <main id="main">
         <div>
-            <h3>PROJETS EPITECH <a href="https://www.epitech.eu/msc-pro/"><img src="epitech.png" class="logoepitech" id="resizeepitech" alt=""></a></h3>
+            <h3>CREATION DE PROJETS </h3>
             <ul>
+                <h4>Création d'un chat instantané</h4>
+                <li class="taches">4-janvier-2021/07-fevrier-2021</li>
+                <li class="taches">HTML, CSS, JS, REACT, AXIOS, NODEJS, MONGODB, MONGOOSE, SOCKET.IO</li>
+                <li class="taches"><em>2ème projet EPITECH en duo, création d'un chat instantané avec socket.io, C.R.U.D, gestion de rooms, persistance dans mongoDB, utilisation de mongoose, le tout avec un front en REACT et un server en NODEJS.
+                </em></li><br>
+            
                 <h4>Création site d'offres d'emplois</h4>
                 <li class="taches">29-sep-2020/18-oct-2020</li>
                 <li class="taches">HTML, CSS, JS, AXIOS, NODEJS, MYSQL</li>
-                <li class="taches"><em>Les consignes étaient de créer un site d'offres d'emplois à partir de rien, en ajoutant differentes fonctionnalités telles que: un front fonctionnel, création de session, page administrateur avec un C.R.U.D (create, read, update, delete) sur les annonces et les utilisateurs, créations d'annonces par des recruteurs avec également un C.R.U.D sur ces annonces, des requêtes SQL sans ORM à une base de données, ...
-                </em></li><br>
-                <h4>Création site de recettes de cuisine</h4>
-                <li class="taches">En cours</li>
-                <li class="taches">HTML, CSS, JS, VUEJS, AXIOS, NODEJS, MARIADB</li>
-                <li class="taches"><em>Je souhaite personnellement approfondir mes connaissances en développement, decouvrir de nouvelles technologies comme VUEJS par exemple. Nous serons 4 personnes à se lancer ce nouveau défi chacun de notre coté, afin de progresser.
-                </em>
-            </ul>
-            <h3>THÈMES ETUDIÉS</h3>
-            <ul>
-                <li><h5><strong>Développement Web</strong></h5></li>
-                <li><h5><strong>Systèmes et réseaux</strong></h5></li>
-                <li><h5><strong>JAVA</strong></h5></li>
-            </ul>
+                <li class="taches"><em>_Un front fonctionnel
+                    _Création de session <br>
+                    _Page administrateur <br>
+                    _C.R.U.D (create, read, update, delete) sur les annonces et les utilisateurs, créations 
+                    d'annonces par des recruteurs avec également un C.R.U.D sur ces annonces <br>
+                    _Requêtes SQL sans ORM à une base de données, ...
+                </em></li></ul>
+            
             <h3>EXPÉRIENCES PROFESSIONNELLES</h3>
             <ul>
+                <h4>Les STORYVORES (Montpellier - 34</h4>
+                <div>Avr 2021 - Août 2021</div>
+                <ul>
+                    <li class="taches"><h5><strong>Stage - Développeur full stack (ReactJs</strong></h5>
+                        <em>Site et application de séries littéraires enrichies en média conçu en ReactJs. <br>
+                            Refonte from scratch du site vitrine et ajout de fonctionnalités à l’application.
+                    </em></li>
+
                 <h4>Restaurant Le MARCELLINO (Nîmes - 30)</h4>
                 <div>Nov 2017 - Août 2020</div>
                 <ul>
-                    <h4>postes occupés</h4>
                     <li class="taches"><h5><strong>Chef de cuisine (06/2019-08/2020)</strong></h5>
                         <em>Gestion des coûts et des stocks, l'élaboration des menus et de la carte, gestion d'une équipe de 5 personnes, respect des règles sanitaires, H.A.C.C.P, polyvalence sur l'integralité des postes et étroite collaboration avec la direction.
                     </em></li>
@@ -101,12 +106,12 @@
                     <em>Polyvalence sur l'integralité des postes.
                     </em></li>
                 </ul>
-                <h4>Mon experience complete dans la restauration sur mon linkedin...</h4>
+                <h5>Mon experience complete dans la restauration sur mon linkedin...</h5>
             </ul>
             <h3>FORMATIONS</h3>
             <ul>
                 <li>
-                    <h5>Master - En alternance</h5>
+                    <h5>Master programmation et développement web - En alternance</h5>
                     Septembre  2020 - Aujourd'hui<br>
                     EPITECH (34)
                 </li>
@@ -134,6 +139,7 @@
         <div id="logo">
             <a href="https://www.linkedin.com/in/k%C3%A9vin-harscoet-67ba85117/"><img class="logo" src="linkedin-logo.png" alt=""></a>
             <a href="https://github.com/kevinharscoet"><img class="logo" src="logo_git.png" alt=""></a>
+            <a href="https://www.epitech.eu/msc-pro/"><img src="epitech.png" class="logoepitech" id="resizeepitech" alt=""></a>
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
